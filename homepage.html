@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>아라종합사회복지관</title>
+
+
+</head>
+
+<body>
+
+<!--전체 레이아웃 부분-->
+
+<div style="background:url(/2012/images/main/bg.gif) repeat-x; width:100%;">
+
+<!--홈페이지 화면 부분-->
+<div id="main">
+
+<!--최상단 부분-->
+<form name="serForm" method="post" action="/2012/my/04.php" onsubmit="return serFormSubmit();">
+<div id="top">
+    <ul>
+        
+        
+		            <li><a href="/2012/my/01.php"><img src="/2012/images/main/login_bt.gif" alt="로그인" title="로그인" style="margin-right:13px;" /></a></li>
+            <li><a href="/2012/my/02.php"><img src="/2012/images/main/join_bt.gif" alt="회원가입" title="회원가입" style="margin-right:13px;" /></a></li>
+                
+        <li><input type="text" onfocus="pw();" value="search" id="SearchInput" style="float:left;" title="검색바" name=stx /></li>
+        <li><input type="image" src="/2012/images/main/search_bt.gif" alt="검색" title="검색" style="border:none; float:left; width:29px; height:21px;" /></li>
+    </ul>
+</div>
+</form>
+<script>
+				function serFormSubmit() {
+					stx = document.serForm.stx;
+					if (stx.value.length < 1 || stx.value == "search") {
+						alert("검색어를 입력하세요.");
+						stx.focus();
+						return false;
+					}
+				}
+				</script>
+
+<!--최상단 부분 끝-->
+
+
+<!--플래쉬 부분-->
+<div id="flash">
+<!--<img src="/flash/flash.jpg" alt="플래쉬" title="플래쉬">  --><script>FlashActiveX_main('/2012/flash/mainvisual.swf',1000,477);</script>
+</div>
+<!--플래쉬 부분 끝-->
+
+<!-- 하단 퀵메뉴 -->
+<div id="quick">
+<img src="/2012/images/main/quick.gif" alt="퀵메뉴" border="0" usemap="#quickMap" />
+<map name="quickMap" id="quickMap">
+   <area shape="rect" coords="80,21,130,38" href="/2012/together/01_01.php" alt="후원안내" title="후원안내"/>
+  <area shape="rect" coords="80,40,130,54" href="/2012/together/01_02.php" alt="후원신청" title="후원신청" />
+  <area shape="rect" coords="335,20,408,37" href="/2012/together/02_01.php" alt="자원봉사안내" title="자원봉사안내" />
+  <area shape="rect" coords="335,38,408,54" href="/2012/together/02_02.php" alt="자원봉사신청" />
+  <area shape="rect" coords="600,22,673,36" href="/2012/together/03_01.php" alt="프로그램안내" />
+  <area shape="rect" coords="600,37,673,54" href="/2012/together/03_02.php" alt="프로그램신청" />
+  <area shape="rect" coords="880,21,974,36" href="/2012/together/04_01.php" alt="사회복지 실습안내" />
+  <area shape="rect" coords="880,38,973,53" href="/2012/together/04_02.php" alt="사회복지 실습신청" />
+</map>
+
+</div>
+<!-- 하단 퀵메뉴 끝 -->
+
+<!-- 게시물 -->
+<div id="board">
+	<ul>
+		<li>
+        	<dl class="Notice">
+            	<dt style="padding-bottom:10px;"><a href="/2012/comm/01.php"><img src="/2012/images/main/tit_noti.png" title="공지사항"  alt="공지사항" /></a></dt>
+                <!--<dd>아라종합사회복지관 공지사항 제목이 들어오는곳...</dd>
+                <dd>아라종합사회복지관 공지사항 제목이 들어오는곳...</dd>
+                <dd>아라종합사회복지관 공지사항 제목이 들어오는곳...</dd>
+                <dd>아라종합사회복지관 공지사항 제목이 들어오는곳...</dd>
+                <dd>아라종합사회복지관 공지사항 제목이 들어오는곳...</dd>
+                <dd>아라종합사회복지관 공지사항 제목이 들어오는곳...</dd> -->
+                <dd><a href='/2012/comm/01.php?wr_id=477&sca=' target='_parent'>2017년 제14회 독후감 공모전</a></dd><dd><a href='/2012/comm/01.php?wr_id=475&sca=' target='_parent'>2016년도 운영위원회 회의록 공개</a></dd><dd><a href='/2012/comm/01.php?wr_id=474&sca=' target='_parent'>정규직 직원 채용 공고</a></dd><dd><a href='/2012/comm/01.php?wr_id=472&sca=' target='_parent'>인문학교육 프로그램 "아라인문학당" 수강생 모집</a></dd><dd><a href='/2012/comm/01.php?wr_id=471&sca=' target='_parent'>아라종합사회복지관 7월 사회교육프로그램 안내</a></dd><dd style='border-bottom:none;'><a href='/2012/comm/01.php?wr_id=468&sca=' target='_parent'>좋은글 캠페인 공모</a></dd>			</dl>
+		</li>
+		<li>
+            <dl>
+                <dt><a href="/2012/comm/07.php"><img src="/2012/images/main/tit_news.png" title="소식지"  alt="소식지" /></a></dt>
+                <dd style="text-align:center;"><img src="/2012/images/main/news.png" title="소식지"  alt="소식지" style="float:right;" /></dd>
+                	
+                <dt><a href="/2012/comm/05.php"><img src="/2012/images/main/tit_photo.png" title="포토갤러리"  alt="포토갤러리" /></a></dt>
+                <dd style="text-align:center;">
+
+
+
+
+
+
+
+    <style type="text/css">
+        #rollBanner {
+            position:relative;
+            margin:0px 10px;
+            width:310px;
+            height:35px;
+            overflow:hidden;
+            white-space:nowrap;
+        }
+        #rollBannerText {
+            position:relative;
+            width:200px;
+            height:50px;
+            overflow:hidden;
+            border:1px solid #000;
+            white-space:nowrap;
+        }
+        #rollBanner p    {
+            position:absolute;
+            margin:0;
+        }
+        #rollBannerText p    {
+            position:absolute;
+            margin:0;
+        }
+    </style>
+    <script type="text/javascript">
+        function    rollBanner(divId,intervalTime)  {
+            var divId = document.getElementById(divId); // Roll Div 선언
+            var pTag =  divId.getElementsByTagName("p")[0]; // absolute P 변수 선언
+            var imgTag =  divId.getElementsByTagName("img"); //이미지 변수 선언 (실제로 여기선 필요없음. 다 링크가 달렸기때문에..)
+            var textTag = divId.getElementsByTagName("a"); // 단순 Text 변수 혹은 이미지에 걸린 링크 선언
+            var pWidth = pTag.offsetWidth; //p태그가 가진 Width값 변수
+            var speed = 1; //1픽셀씩 이동
+            pTag.style.left = 0 + "px"; //수정불가, 위치를 옮기고 싶다면 div 자체에 margin값을 스타일로 줘야함 (p자체가 움직이는 구조)
+            var bannerArray = new Array(); // 배너를 롤링하기 위해 배열복사(배열까진 필요없을것 같기도함)
+
+            bannerArray[0] = pTag.innerHTML; // 배열에 P 태그가 가지고 있는 항목 저장
+
+            if (textTag.length != 0) // a 태그가 있으면 (img로 대체할수도 있겠지)
+            {
+                if (pWidth > divId.offsetWidth) //p width값이 div width 값보다 크다면 움직여라 (작은데도 움직일거면 삭제)
+                {
+                    pTag.style.left = pTag.offsetLeft; //absolute P태그의 left를 선언 (offset은 읽기전용이라서..)
+                    pTag.innerHTML=pTag.innerHTML+bannerArray[0]; //일단 처음에 배너 배열을 하나 더 복사해서 길게 만듬
+                    var rollInterval = setInterval(
+                        function()
+                        {
+                            /* onmouse Event */
+                            pTag.onmouseover = function() {
+                                speed=0;//이동 안함
+                            };
+                            pTag.onmouseout = function() {
+                                speed=1;//1픽셀씩 이동
+                            };
+                            pTag.style.left =  parseInt(pTag.style.left)-speed + "px";//1픽셀씩 이동
+                            if (parseInt(pTag.style.left) % pWidth==0)
+                            /* 배너 넓이 만큼 이동했을시 */
+                            {
+                                pTag.innerHTML=pTag.innerHTML+bannerArray[0]; //뒤로 배너배열 하나더 추가
+                            }
+                        }
+                        ,intervalTime);
+                }
+            }
+        }
+
+    </script>
+
+<div id="rollBanner">
+    <p>
+        <a href='/2012/comm/05.php?wr_id=11413'><img style='border:#b6aea9 1px solid;' title='2017년 자원봉사자.후원자 한마…' alt='2017년 자원봉사자.후원자 한마…' src='./board/data/file/photo/2949629070_uCL4YaJR_DSC_08451.jpg' align=absmiddle width="100" height="35" /></a>
+<a href='/2012/comm/05.php?wr_id=11411'><img style='border:#b6aea9 1px solid; margin-left:1px;' title='한빛라이온스클럽 물품후원' alt='한빛라이온스클럽 물품후원' src='./board/data/file/photo/2949629340_eyd0cpna_KakaoTalk_20160622_164404653.jpg' align=absmiddle width="100" height="35" /></a>
+<a href='/2012/comm/05.php?wr_id=11410'><img style='border:#b6aea9 1px solid; margin-left:1px;' title='2016년 아라주는 아라마을 만들…' alt='2016년 아라주는 아라마을 만들…' src='./board/data/file/photo/2949629340_fUMk98Ed_KakaoTalk_20160401_123225270.jpg' align=absmiddle width="100" height="35" /></a>
+<a href='/2012/comm/05.php?wr_id=11407'><img style='border:#b6aea9 1px solid; margin-left:1px;' title='LH 제주지역본부 경로식당 봉사…' alt='LH 제주지역본부 경로식당 봉사…' src='./board/data/file/photo/2949629340_5yZoNDhi_KakaoTalk_20150924_100441736.jpg' align=absmiddle width="100" height="35" /></a>
+<a href='/2012/comm/05.php?wr_id=11406'><img style='border:#b6aea9 1px solid; margin-left:1px;' title='아라마을 어르신 전래놀이 봉사…' alt='아라마을 어르신 전래놀이 봉사…' src='./board/data/file/photo/2949629340_ckoIrLTZ_noname01.jpg' align=absmiddle width="100" height="35" /></a>
+<a href='/2012/comm/05.php?wr_id=11405'><img style='border:#b6aea9 1px solid; margin-left:1px;' title='아라마을 어르신 전래놀이 봉사…' alt='아라마을 어르신 전래놀이 봉사…' src='./board/data/file/photo/2949629340_HClPyYzo_noname01.jpg' align=absmiddle width="100" height="35" /></a>
+    </p>
+</div>
+
+<script type="text/javascript">
+    rollBanner("rollBanner",30);
+</script>
+
+
+
+</dd>
+            </dl>
+        </li>
+		<li style=" border-right:#ececec 1px solid;"><dl>
+	<dt>
+     <img style="float:left;padding-bottom:10px;" src="/2012/images/main/tit_popzone.png" alt="팝업존" title="팝업존" /><span style="float:right; margin-right:27px; margin-top:26px;"> <img src='./board/skin/latest/popzone/img/ove.gif' alt='1' title='1' name='popzoneIcon01' id='popzoneIcon01' onmouseover='popzoneIDAction(1);' style='cursor:hand;' /></span>
+	</dt>
+<dd style="text-align:center;"><img src="./board/data/file/popzone/2060093172_d39AmrBl_1BFF9C6CBBEF7C1B8.jpg" name="popzoneImg" alt="" title="" id="popzoneImg" width="279" height="105" onclick="popzoneLink();" style="cursor:hand;" /></dd>
+    </dl>      
+<script>
+// 팝업존 관련
+var popzoneTmp = 0;
+var popzoneNum = 1;				// 팝업존 갯 수
+function popzoneIDAuto() {
+	popzoneTmp = popzoneTmp + 1;
+	if (popzoneTmp > popzoneNum) {
+		popzoneTmp = 1;
+	}
+	
+	popzoneIDAction(popzoneTmp);
+	setTimeout("popzoneIDAuto(" + popzoneTmp + ")", 3000);
+}
+
+function popzoneIDAction(choice) {
+	for (i=1;i <= popzoneNum;i++) {
+		document.getElementById("popzoneIcon0" + i).src = "./board/skin/latest/popzone/img/out.gif";
+	}
+	
+	if (choice > 0) {
+		document.getElementById("popzoneIcon0" + choice).src = "./board/skin/latest/popzone/img/ove.gif";
+
+		switch (choice) {
+							case 1 : 
+					document.getElementById("popzoneImg").src = "./board/data/file/popzone/2060093172_d39AmrBl_1BFF9C6CBBEF7C1B8.jpg"; 
+					document.getElementById("popzoneImg").alt = "프로그램안내";
+					document.getElementById("popzoneImg").title = "프로그램안내";  
+					break;
+				
+					}
+	}
+	
+	popzoneTmp = choice;	
+}
+
+function popzoneLink() {
+	switch (popzoneTmp) {
+					case 1 : popzoneLinkGo("/2012/together/03_01.php", ""); break;
+			}
+}
+
+function popzoneLinkGo(L, T) {
+	//alert(L + "::" + T);
+	switch (T) {
+		case "_blank" : window.open(L,'',''); break;
+		default : top.location.href=L; break;
+	}
+}
+
+popzoneIDAuto();
+</script>
+
+
+<!--<dl><dt><img src="/2012/images/main/tit_popzone.png" title="팝업존"  alt="팝업존" /></dt><dd><img src="/2012/images/main/popzone.jpg" title="팝업존"  alt="팝업존" /></dd> </dl>--></li>
+</ul>
+</div>
+<!-- 게시물 끝 -->
+
+<div style="height:1px;"></div>
+
+<!-- 카피라이트 -->
+
+</div>
+</div>
+
+<div class="copy" style="margin:0 auto; width:1000px; clear:both;">
+    <div style="float:right;padding-top:0px;"><a href="/2012/comm/08.php"><img src="/2012/images/main/bann_huwon.png" alt="후원자명단" /></a></div>
+
+    <ul>
+    	<li><a href="/2012/intro/01.php" target="_blank">아라종합사회복지관소개</a></li>
+        <li><a href="/2012/intro/07.php" target="_blank">오시는길</a></li>
+    	<li><a href="javascript:CenterWindow('/2012/copyright/provision.php','privacy',500,500)">회원약관</a></li>
+	    <li><a href="javascript:CenterWindow('/2012/copyright/privacy.php','privacy',500,500)">개인정보보호정책</a></li>
+        <li><a href="javascript:CenterWindow('/2012/copyright/without.php','privacy',500,500)">이메일무단수집거부</a></li>
+    </ul>
+    <!--img src="/2012/images/main/copy_1.gif" alt="회원약관" title="회원약관"/>
+    <img src="/2012/images/main/copy_2.gif" alt="개인보호정책" title="개인보호정책"/>
+    <img src="/2012/images/main/copy_3.gif" alt="이메일무단수집거부" title="이메일무단수집거부"/-->
+
+    <p style="clear:both;">
+        <div class="copy_right">
+
+
+       		      <select title="관련사이트 바로가기" style="width:150px;margin-left:12px;" onchange="linkWindow(this.value);">
+           			  <option value="">관련사이트 바로가기</option>
+                    <option value='http://www.longtermcare.or.kr/portal/site/nydev'>노인장기요양보험</option><option value='http://www.mohw.go.kr'>보건복지부</option><option value='http://www.bokji.net'>복지넷</option><option value='http://www.jcaf.or.kr/'>제주문화예술재단</option><option value='http://www.jejunoin.org'>제주특별자치도노인보호전문기관</option><option value='http://www.khwis.or.kr'>한국보건복지정보개발원</option><option value='http://www.welfare.net'>한국사회복지사협회</option>                   </select>
+
+                   <select title="주요링크 사이트" style="width:150px;margin-left:7px;" onchange="linkWindow(this.value);">
+                       <option value="">주요링크 사이트 바로가기</option>
+                       <option value='http://www.cvoucher.kr'>문화이용권</option><option value='http://cafe.daum.net/ara7179'>아라어린이집</option><option value='http://www.jeju.go.kr'>제주도청</option><option value='http://www.jejusi.go.kr'>제주시청</option><option value='http://jeju.chest.or.kr'>제주특별자치도사회복지공동모금회</option><option value='http://www.jejubokji.net'>제주특별자치도사회복지협의회</option><option value='http://www.kaswc.or.kr'>한국사회복지관협회</option><option value='http://happylog.naver.com/arawell.do'>해피빈</option>		           </select>
+                   <br />
+                   <div style="font-size:11px;color:#868686;padding-top:5px;text-align:right;">
+    ㆍ오늘:36명 ㆍ최대:138명 ㆍ전체:40,789명
+    <a href="http://facebook.com/arawell" target="_blank"><img src="/2012/images/main/face.gif" alt="페이스북" title="페이스북"/></a>
+    <a href="http://twitter.com/#arawell4605" target="_blank"><img src="/2012/images/main/tw.gif" alt="트위터" title="트위터"/></a>
+</div>
+
+                   
+     	</div>
+
+     	<div>
+        	우) 690-773 제주특별자치도 제주시 아라1동 1683번지 아라주공아파트 단지내 아라종합사회복지관<br />
+        	안내전화 : (064)702-4605 ·726-4605 &nbsp;&nbsp;&nbsp;Copyrightⓒ2012 아라종합사회복지관. All Rights Reserved.
+    	</div>
+        <!--img src="/2012/images/main/copy_4.gif" alt="카피라이트" title="카피라이트"  style=" margin-right:41px;"/-->                   
+    </p>
+</div>
+</body>
+</html><!-- 카피라이트 끝 -->
+
+
+
